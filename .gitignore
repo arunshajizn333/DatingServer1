@@ -1,0 +1,50 @@
+# Ignore all files with these extensions
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore dependency directories for different languages
+vendor/
+target/
+out/
+
+# Ignore IDE/editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.user
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore compiled code
+*.class
+*.dll
+*.exe
+*.o
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore build artifacts
+dist/
+build/
